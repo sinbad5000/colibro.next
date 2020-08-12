@@ -6,7 +6,13 @@ import Nav from 'react-bootstrap/Nav'
 
 const Layout = ({ children }) => (
     <Container>
-        <Navbar className = "justify-content-between" expand="lg" variant="dark" bg="dark" fixed="top">
+
+        <Head>
+            <title>Colibro</title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
+
+        <Navbar className="justify-content-between" expand="lg" variant="dark" bg="dark" fixed="top">
             <Navbar.Brand>Calibro</Navbar.Brand>
 
             <Navbar.Collapse className="justify-content-end">
