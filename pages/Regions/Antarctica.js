@@ -8,7 +8,10 @@ export default function Antarctica() {
 >>>>>>> d46a330cb6b12f834276eb29610f7082ad8169e7
     return (
         <div>
-
+            <Head>
+                <title>Colibro</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
         </div>
     )
 }
