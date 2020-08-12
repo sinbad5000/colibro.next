@@ -1,0 +1,10 @@
+.coverLogo {
+    margin: 0px auto;
+    color: white;
+    height: 30vw;
+    width: 50vw;
+    display: flex;
+    align-items: flex-end;
+    flex-flow: row-reverse;
+   
+}
