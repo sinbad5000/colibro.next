@@ -5,8 +5,8 @@
     
 }
 .rowContainer {
-    height: 15vw;
-    width: 30vw;
+    height: 150px;
+    width: 500px;
     overflow: hidden;
     padding: 1vw;
     padding-bottom: 3vw;
@@ -27,8 +27,9 @@
 }
 .sideContainer {
     position: absolute;
-    top: 50%;
-    left: 59%;
+    top: 70%;
+    left: 58%;
+    width: 700px;
     padding: 1vw;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);

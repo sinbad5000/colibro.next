@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
                 <Navbar.Brand>Colibro</Navbar.Brand>
 
                 <Navbar.Collapse className="justify-content-end">
-                    <Nav.Link >Map</Nav.Link>
+                    <Nav.Link href="/Homepage">Map</Nav.Link>
                     <Nav.Link >Sign Up</Nav.Link>
                     <Nav.Link >Sign in</Nav.Link>
                 </Navbar.Collapse>
