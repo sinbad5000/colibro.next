@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-
 export default function AustraliaGrid() {
     return (
         <div>
@@ -14,13 +13,12 @@ export default function AustraliaGrid() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
         
-           
             <Row>
-           
+        
             <div className={styles.gridContainer}>
                 <Link href="/Animals/TasmanianDevil"><a><Col><div className={styles.rowContainer}><img src="/tasmanian.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                <Link href="/Animals/HyacinthMacaw"><a><Col><div className={styles.rowContainer}><img src="/Macaw.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/Kangaroo"><a><Col><div className={styles.rowContainer}><img src="/Kangaroo.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/AndeanCat"><a><Col><div className={styles.rowContainer}><img src="/Andean.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/WhaleShark"><a><Col><div className={styles.rowContainer}><img src="/WhaleShark.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/HawksBill"><a><Col><div className={styles.rowContainer}><img src="/Hawksbill.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/MountainTapir.jpg" className={styles.imgContainer}></img></div></Col></a></Link>

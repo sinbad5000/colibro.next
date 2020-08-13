@@ -21,7 +21,7 @@ export default function Cover() {
             <Link href='/Homepage'>
             <main>
                 <div className={styles.coverLogo}>
-                <Link href='/Homepage'><h1><a>Colibro</a></h1></Link>
+                <Link href='/Homepage'><h1 className={styles.title}><a>Colibro</a></h1></Link>
                 </div>
             </main>
             </Link>
