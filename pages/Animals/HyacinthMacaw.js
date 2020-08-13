@@ -58,7 +58,7 @@ export default function HyacinthMacaw() {
                                                 Eat more veggies to reduce energy to grow and transport food. Reuse water bottles to reduce production of toxic materials.
                         <br />
                                                 <br />
-                                                <Button>More ways to help!</Button>
+                                                <Link href=' https://www.thepetitionsite.com/771/018/101/save-the-hyacinth-macaw/'><Button>More ways to help!</Button></ Link>
                                             </Tab.Pane>
                                         </Tab.Content>
                                     </Col>

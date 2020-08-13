@@ -58,7 +58,7 @@ export default function GoldenTamarin() {
                         Share toys and school supplies told help slow the demand of major production! 
                         <br />
                         <br />
-                        <Button>More ways to help!</Button> 
+                        <Link href='https://www.savetheliontamarin.org/'><Button>More ways to help!</Button></ Link>
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>
