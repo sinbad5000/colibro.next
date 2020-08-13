@@ -26,7 +26,7 @@ export default function GoldenTamarin() {
             <Container>
             <div className={styles.headerBackground}>
             <h1 className={styles.centered}>Golden Lion Tamarin</h1>
-                <img src='/Rainforest-Bg.jpg' className={styles.imgContainer}></img>
+                <img src='/Video.png' className={styles.imgContainer}></img>
             </div>
             <Row>
                 <Col>
@@ -52,13 +52,13 @@ export default function GoldenTamarin() {
                         Lion tamarins take their name from their impressive manes - thick rings of hair reminiscent of Africa's great cats. The golden lion tamarin may be the most beatiful of the four lion tamarin species. It's abundant golden hair frames a charismatic black face and covers its small body and tail. Despite their name, these rare primates have far more in common with their monkey relatives than any feline.
                         </Tab.Pane>
                         <Tab.Pane className={styles.sideContainer} eventKey="third">
-                        because you suck.
+                        All four lion tamarin types are criticially endangered in part because their habitat has been disrupted by human activities, severely by development.
                         </Tab.Pane>
                         <Tab.Pane className={styles.sideContainer} eventKey="second">
-                        Don't be a dick. 
+                        Share toys and school supplies told help slow the demand of major production! 
                         <br />
                         <br />
-                        <Button>Donate!</Button> 
+                        <Button>More ways to help!</Button> 
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>

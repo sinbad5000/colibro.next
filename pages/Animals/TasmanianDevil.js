@@ -25,10 +25,9 @@ export default function GalapagosPenguin() {
             <div>
             <Container>
             <div className={styles.headerBackground}>
-            <br></br>
             <h1 className={styles.centered}>Tasmanian Devil</h1>
             
-                <img src='/tasmanian.jpg' className={styles.imgContainer}></img>
+                <img src='/tasmanian.jpg' className={styles.imgContainer2}></img>
             </div>
             <Row>
                 <Col>
@@ -50,7 +49,7 @@ export default function GalapagosPenguin() {
                     <Col sm={9}>
                     <Tab.Content>
                         <Tab.Pane className={styles.sideContainer2} eventKey="first">
-                        They have long front legs and shorter rear legs, giving them a lumbering, piglike gait. The Tasmanian devil is the world's largest carnivorous marsupial, reaching 30 inches in length and weighing up to 26 pounds, although its size will vary widely depending on where it lives and the availability of food.
+                        They have long front legs and shorter rear legs, giving them a lumbering, pig-like gait. The Tasmanian devil is the world's largest carnivorous marsupial, reaching 30 inches in length and weighing up to 26 pounds, although its size will vary widely depending on where it lives and the availability of food.
                         </Tab.Pane>
                         <Tab.Pane className={styles.sideContainer2} eventKey="second">
                         Listed as endangered, they are threatened with extinction due to the deadly Devil Facial Tumour Disease (DFTD) - a devastating disease that emerged in 1996 and still has no cure. Once widespread throughout Australia, devils are now only found in Tasmania.
@@ -59,7 +58,7 @@ export default function GalapagosPenguin() {
                         Remember to always recycle! Our ocean is full of plastic and you can do your part to reduce, reuse and recycle disposable plastics to protect the Tasmanian Devil.
                         <br />
                         <br />
-                        <Button>Donate!</Button>                       
+                        <Button>More ways to help!</Button>                       
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>
