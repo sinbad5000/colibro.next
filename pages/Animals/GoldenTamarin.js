@@ -38,11 +38,12 @@ export default function GoldenTamarin() {
                         <Nav.Link eventKey="first">Description</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                        <Nav.Link eventKey="second">What Can You Do?</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
                         <Nav.Link eventKey="third">Why are they endangered?</Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link eventKey="second">What Can You Do?</Nav.Link>
+                        </Nav.Item>
+
                     </Nav>
                     </Col>
                     <Col sm={9}>
@@ -50,11 +51,14 @@ export default function GoldenTamarin() {
                         <Tab.Pane className={styles.sideContainer} eventKey="first">
                         Lion tamarins take their name from their impressive manes - thick rings of hair reminiscent of Africa's great cats. The golden lion tamarin may be the most beatiful of the four lion tamarin species. It's abundant golden hair frames a charismatic black face and covers its small body and tail. Despite their name, these rare primates have far more in common with their monkey relatives than any feline.
                         </Tab.Pane>
-                        <Tab.Pane className={styles.sideContainer} eventKey="second">
-                        Don't be a dick. 
-                        </Tab.Pane>
                         <Tab.Pane className={styles.sideContainer} eventKey="third">
                         because you suck.
+                        </Tab.Pane>
+                        <Tab.Pane className={styles.sideContainer} eventKey="second">
+                        Don't be a dick. 
+                        <br />
+                        <br />
+                        <Button>Donate!</Button> 
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>
@@ -63,7 +67,7 @@ export default function GoldenTamarin() {
                 <br />
                 <Button className={styles.leftButton}>Favorite!</Button>
                 <br />
-                <div classname={styles.type}>
+                <div className={styles.type}>
                 <h5><img src='/icons/Bear.png' className={styles.logo}></img> Type: Mammals</h5>
                 <h5><img src='/icons/Food.png' className={styles.logo}></img> Diet: Herbivore</h5>
                 <h5><img src='/icons/rainforest(1).png' className={styles.logo}></img> Habitat: Forest</h5>
@@ -73,7 +77,7 @@ export default function GoldenTamarin() {
                 </Col>
                 
             </Row>
-            <iframe width="100%" height="700px" src="https://www.youtube.com/embed/ubM6v0_u-dc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="700px" src="https://www.youtube.com/embed/ubM6v0_u-dc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </Container>
             </div>
         </Layout>

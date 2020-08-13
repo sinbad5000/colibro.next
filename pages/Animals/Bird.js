@@ -37,11 +37,12 @@ export default function GoldenTamarin() {
                         <Nav.Link eventKey="first">Description</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                        <Nav.Link eventKey="second">What Can You Do?</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
                         <Nav.Link eventKey="third">Why are they endangered?</Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link eventKey="second">What Can You Do?</Nav.Link>
+                        </Nav.Item>
+
                     </Nav>
                     </Col>
                     <Col sm={9}>
@@ -49,12 +50,16 @@ export default function GoldenTamarin() {
                         <Tab.Pane className={styles.sideContainer} eventKey="first">
                         Lion tamarins take their name from their impressive manes - thick rings of hair reminiscent of Africa's great cats. The golden lion tamarin may be the most beatiful of the four lion tamarin species. It's abundant golden hair frames a charismatic black face and covers its small body and tail. Despite their name, these rare primates have far more in common with their monkey relatives than any feline.
                         </Tab.Pane>
-                        <Tab.Pane className={styles.sideContainer} eventKey="second">
-                        Don't be a dick. 
-                        </Tab.Pane>
                         <Tab.Pane className={styles.sideContainer} eventKey="third">
                         because you suck.
                         </Tab.Pane>
+                        <Tab.Pane className={styles.sideContainer} eventKey="second">
+                        Don't be a dick. 
+                        <br />
+                        <br />
+                        <Button>Donate!</Button> 
+                        </Tab.Pane>
+
                     </Tab.Content>
                     </Col>
                 </Row>

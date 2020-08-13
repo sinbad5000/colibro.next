@@ -45,6 +45,19 @@
     background-color: rgba(207, 73, 0, 0.842);
     
 }
+
+.sideContainer2 {
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    width: 705px;
+    padding: 1vw;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    background-color: #995151;
+    
+}
+
 .logo {
     height: 2em;
 }
