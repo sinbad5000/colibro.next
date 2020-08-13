@@ -5,30 +5,41 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Layout = ({ children }) => (
-    <Container>
-
+    <div>
         <Head>
             <title>Colibro</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
+        <br />
+        <br />
+
+
         <Navbar className="justify-content-between" expand="lg" variant="dark" bg="dark" fixed="top">
-            <Navbar.Brand>Calibro</Navbar.Brand>
+            <Container className={styles.test}>
+                <Navbar.Brand>Colibro</Navbar.Brand>
 
-            <Navbar.Collapse className="justify-content-end">
-                <Nav.Link >Map</Nav.Link>
-                <Nav.Link >Sign Up</Nav.Link>
-                <Nav.Link >Sign in</Nav.Link>
-            </Navbar.Collapse>
-
+                <Navbar.Collapse className="justify-content-end">
+                    <Nav.Link >Map</Nav.Link>
+                    <Nav.Link >Sign Up</Nav.Link>
+                    <Nav.Link >Sign in</Nav.Link>
+                </Navbar.Collapse>
+            </Container>
         </Navbar>
 
-        <div>{children}</div>
+
+        <div>
+            <main>{children}</main>
+        </div>
+
+        <br />
+        <br />
+        <br />
 
         <Navbar expand="lg" variant="dark" bg="dark" fixed="bottom">
             <Navbar.Brand>Footer</Navbar.Brand>
         </Navbar>
-    </Container>
+    </div>
 );
 
 export default Layout;
