@@ -20,8 +20,9 @@ export default function AnimalGrid() {
                 <Link href="/Animals/WhaleShark"><a><Col><div className={styles.rowContainer}><img src="/WhaleShark.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/HawksBill"><a><Col><div className={styles.rowContainer}><img src="/Hawksbill.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/MountainTapir.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-            </Row>  
-            <br />
+
+            </Row>
+
             </div>
          
         </div>
