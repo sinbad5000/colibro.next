@@ -1,13 +1,26 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import sa from '../../styles/SouthAmerica.module.css'
+import Layout from '../../components/Layout'
+import Filter from '../../components/Filter'
+import Container from 'react-bootstrap/Container'
+import AnimalGrid from '../Animals/AnimalGrid'
+
 
 export default function Asia() {
     return (
-        <div>
-            <Head>
-                <title>Colibro</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-        </div>
+        <Layout>
+            <div className = {sa.asiaDiv}>
+                    <br></br>
+                    <br></br>
+                    <h1 className = {sa.text}>ASIA</h1>
+
+            </div>
+
+            <br />
+
+            <Filter></Filter>
+            <AnimalGrid />
+
+        </Layout>
     )
 }

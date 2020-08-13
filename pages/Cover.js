@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
 
-
 export default function Cover() {
     const styling = {
         backgroundImage: "url('./jared-rice.jpg')",
@@ -20,11 +19,9 @@ export default function Cover() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-            <div className={styles.coverLogo}>
-
+                <div className={styles.coverLogo}>
                 <Link href='/Homepage'><h1><a>Colibro</a></h1></Link>
-
-            </div>
+                </div>
             </main>
         </div>
     )

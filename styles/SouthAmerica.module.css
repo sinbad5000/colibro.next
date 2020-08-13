@@ -7,12 +7,86 @@
     width:100%;
     height:50vh;
     background-image: url("../public/frog.jpg");
-    transform: translateY(-20%,-20%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 60%;
     color:white;
     font-family: moonLight;   
+}
+
+.whaleDiv {
+    width:100%;
+    height:50vh;
+    background-image: url("../public/whale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    color:white;
+    font-family: moonLight;  
+}
+
+.rainforestDiv {
+    width:100%;
+    height:50vh;
+    background-image: url("../public/rainforest2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    color:white;
+    font-family: moonLight;  
+}
+
+.nocturnalDiv {
+    width:100%;
+    height:50vh;
+    background-image: url("https://cdn.hipwallpaper.com/i/71/93/ngvV8l.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    color:white;
+    font-family: moonLight; 
+}
+
+.northAmericaDiv{
+    width:100%;
+    height:50vh;
+    background-image: url("https://images5.alphacoders.com/432/432791.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    color:white;
+    font-family: moonLight; 
+}
+
+.AfricaDiv{
+    width:100%;
+    height:50vh;
+    background-image: url("../public/Africa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 40%;
+    color:white;
+    font-family: moonLight; 
+}
+.asiaDiv{
+    width:100%;
+    height:50vh;
+    background-image: url("https://www.naturalworldsafaris.com/media/5534/nws-st-siberian-tiger-flipped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    color:white;
+    font-family: moonLight; 
+}
+.australiaDiv{
+    width:100%;
+    height:50vh;
+    background-image: url("../public/Australia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    color:white;
+    font-family: moonLight; 
 }
 
 .text{
