@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import World from "../components/Map"
+import World from "../components/Map.js"
 
 
 
