@@ -20,9 +20,7 @@ export default function Cover() {
             </Head>
             <main>
                 <div className={styles.coverLogo}>
-
-                    <Link href='/Homepage'><h1>Colibro</h1></Link>
-
+                <Link href='/Homepage'><h1><a>Colibro</a></h1></Link>
                 </div>
             </main>
         </div>
