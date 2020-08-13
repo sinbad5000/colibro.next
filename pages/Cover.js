@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
+import Link from 'next/link'
 
 export default function Cover() {
     const styling = {
         backgroundImage: "url('./jared-rice.jpg')",
-        height: "100vh",
-        width: "100vw",
+        height: "100%",
+        width: "100%",
         position: "absolute",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -20,7 +21,9 @@ export default function Cover() {
             </Head>
             <main>
             <div className={styles.coverLogo}>
+
                 <Link href='/Homepage'><h1>Colibro</h1></Link>
+
             </div>
             </main>
         </div>
