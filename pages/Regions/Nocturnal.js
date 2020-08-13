@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import AnimalGrid from '../Animals/AnimalGrid'
 
 
-export default function SouthAmerica() {
+export default function Nocturnal() {
     return (
         <Layout>
             <div className = {sa.nocturnalDiv}>
@@ -19,7 +19,6 @@ export default function SouthAmerica() {
             <br />
 
             <Filter></Filter>
-
             <AnimalGrid />
 
         </Layout>
