@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
 
 export default function Cover() {
@@ -13,14 +14,13 @@ export default function Cover() {
     }
     return (
         <div style={styling}>
-            {/* <Head>
+            <Head>
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
-            </Head> */}
+            </Head>
             <main>
-            {/* <img src="/jared-rice.js"></img> */}
             <div className={styles.coverLogo}>
-                <h1>Colibro</h1> 
+                <Link href='/Homepage'><h1>Colibro</h1></Link>
             </div>
             </main>
         </div>
