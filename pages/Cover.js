@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
-import Link from 'next/link'
+
 
 export default function Cover() {
     const styling = {
@@ -22,7 +22,7 @@ export default function Cover() {
             <main>
             <div className={styles.coverLogo}>
 
-                <Link href='/Homepage'><h1>Colibro</h1></Link>
+                <Link href='/Homepage'><h1><a>Colibro</a></h1></Link>
 
             </div>
             </main>

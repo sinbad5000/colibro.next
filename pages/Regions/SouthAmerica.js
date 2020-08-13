@@ -14,7 +14,7 @@ export default function SouthAmerica() {
                     <h1 className = {sa.text}>SOUTH AMERICA</h1>
 
             </div>
-
+            
 
             <Filter></Filter>
         </Layout>
