@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Cover.module.css'
+import Link from 'next/link'
 
 export default function Cover() {
     const styling = {
         backgroundImage: "url('./jared-rice.jpg')",
-        height: "100vh",
-        width: "100vw",
+        height: "100%",
+        width: "100%",
         position: "absolute",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
@@ -13,14 +14,13 @@ export default function Cover() {
     }
     return (
         <div style={styling}>
-            {/* <Head>
+            <Head>
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
-            </Head> */}
+            </Head>
             <main>
-            {/* <img src="/jared-rice.js"></img> */}
             <div className={styles.coverLogo}>
-                <h1>Colibro</h1> 
+                <Link href='/Map'><a><h1>Colibro</h1></a></Link>
             </div>
             </main>
         </div>

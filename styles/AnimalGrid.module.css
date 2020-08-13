@@ -1,0 +1,18 @@
+.imgContainer {
+   
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    
+}
+.rowContainer {
+    height: 10vw;
+    width: 20vw;
+    overflow: hidden;
+}
+.gridContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px auto;
+}
