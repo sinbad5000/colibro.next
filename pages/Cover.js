@@ -19,11 +19,11 @@ export default function Cover() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-            <div className={styles.coverLogo}>
+                <div className={styles.coverLogo}>
 
-                <Link href='/Homepage'><h1>Colibro</h1></Link>
+                    <Link href='/Homepage'><h1>Colibro</h1></Link>
 
-            </div>
+                </div>
             </main>
         </div>
     )
