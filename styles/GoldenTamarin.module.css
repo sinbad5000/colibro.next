@@ -4,6 +4,13 @@
     object-fit: cover;
     
 }
+
+.type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .rowContainer {
     height: 150px;
     width: 500px;
@@ -21,19 +28,22 @@
 .centered {
     position: absolute;
     top: 15%;
+    font-size: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
+    font-family: moonLight;
 }
 .sideContainer {
     position: absolute;
     top: 70%;
-    left: 58%;
-    width: 700px;
+    left: 57%;
+    width: 705px;
     padding: 1vw;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
     background-color: rgba(207, 73, 0, 0.842);
+    
 }
 .logo {
     height: 2em;
@@ -42,4 +52,14 @@
     display: flex;
     align-content: left;
     justify-content: right;
+}
+
+@font-face{
+    font-family: moon;
+    src: url("Moon2.0-Regular.otf") format("opentype");
+}
+
+@font-face{
+    font-family:moonLight;
+    src: url("Moon2.0-Light.otf") format("opentype");
 }
