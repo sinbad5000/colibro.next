@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
+          <h1>This is a test</h1>
       </main>
 
 
