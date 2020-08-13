@@ -39,6 +39,21 @@
 }
 .leftButton {
     display: flex;
-    align-content: left;
+    align-content: right;
     justify-content: right;
+}
+
+.type {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@font-face{
+    font-family: moon;
+    src: url("Moon2.0-Regular.otf") format("opentype");
+}
+
+@font-face{
+    font-family:moonLight;
+    src: url("Moon2.0-Light.otf") format("opentype");
 }

@@ -10,6 +10,7 @@ import Tab from 'react-bootstrap/Tab'
 import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
 import Nav from 'react-bootstrap/Nav'
+import sa from '../../styles/SouthAmerica.module.css'
 
 
 export default function GoldenTamarin() {
@@ -57,11 +58,13 @@ export default function GoldenTamarin() {
                 </Row>
                 </Tab.Container>
                 <br />
-                <Button className="leftButton">Favorite!</Button>
+                <Button className={styles.leftButton}>Favorite!</Button>
                 <br />
+                <div classname={styles.type}>
                 <h5><img src='/icons/Bear.png' className={styles.logo}></img> Type: Mammals</h5>
                 <h5><img src='/icons/Food.png' className={styles.logo}></img> Diet: Herbivore</h5>
                 <h5><img src='/icons/rainforest(1).png' className={styles.logo}></img> Habitat: Forest</h5>
+                </div>
                 
                 <br />
                 <br />

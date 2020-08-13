@@ -18,11 +18,13 @@ export default function Cover() {
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <Link href='/Homepage'>
             <main>
                 <div className={styles.coverLogo}>
                 <Link href='/Homepage'><h1><a>Colibro</a></h1></Link>
                 </div>
             </main>
+            </Link>
         </div>
     )
 }

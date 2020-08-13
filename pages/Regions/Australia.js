@@ -3,7 +3,7 @@ import sa from '../../styles/SouthAmerica.module.css'
 import Layout from '../../components/Layout'
 import Filter from '../../components/Filter'
 import Container from 'react-bootstrap/Container'
-import AnimalGrid from '../Animals/AnimalGrid'
+import AustraliaGrid from '../Animals/AustraliaGrid'
 
 
 export default function Australia() {
@@ -19,7 +19,7 @@ export default function Australia() {
             <br />
 
             <Filter></Filter>
-            <AnimalGrid />
+            <AustraliaGrid />
 
         </Layout>
     )
