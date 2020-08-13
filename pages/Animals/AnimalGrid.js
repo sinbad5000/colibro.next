@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-
 export default function AnimalGrid() {
     return (
         <div>
@@ -13,7 +12,6 @@ export default function AnimalGrid() {
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-        
             <div className={styles.gridContainer}>
             <Row>
                 <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
@@ -22,7 +20,9 @@ export default function AnimalGrid() {
                 <Link href="/Animals/WhaleShark"><a><Col><div className={styles.rowContainer}><img src="/WhaleShark.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/HawksBill"><a><Col><div className={styles.rowContainer}><img src="/Hawksbill.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
                 <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/MountainTapir.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+
             </Row>
+
             </div>
          
         </div>

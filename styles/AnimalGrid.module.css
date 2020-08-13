@@ -1,11 +1,11 @@
 .imgContainer {
-    max-width: 100%;
-    max-height: auto;
+    max-width: 300px;
+    max-height: 300px;
     object-fit: cover;
 }
 .rowContainer {
-    height: 12vw;
-    width: 25vw;
+    height: 300px;
+    width: 300px;
     overflow: hidden;
     padding: 1vw;
     padding-bottom: 3vw;
