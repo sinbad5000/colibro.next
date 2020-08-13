@@ -12,8 +12,7 @@
     padding-top: 2vw;
 }
 .gridContainer {
+    margin: 0px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
+    flex-flow: row wrap;
 }

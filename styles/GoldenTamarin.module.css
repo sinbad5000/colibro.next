@@ -50,8 +50,13 @@
 }
 .leftButton {
     display: flex;
-    align-content: left;
+    align-content: right;
     justify-content: right;
+}
+
+.type {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @font-face{
