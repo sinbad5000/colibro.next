@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Filter from '../components/Filter'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
   return (
 
@@ -16,6 +17,5 @@ export default function Home() {
         <h1>This is a test</h1>
       </main>
     </div>
-
   )
 }
