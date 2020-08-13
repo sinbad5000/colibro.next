@@ -13,8 +13,10 @@ export default function AnimalGrid() {
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1> Animal Grid </h1>
+            <br></br>
+            <br></br>
             <Container>
+            <h1> Animal Grid </h1>    
             <div className="gridContainer">
             <Row>
                 <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
