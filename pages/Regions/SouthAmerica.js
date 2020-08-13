@@ -14,8 +14,11 @@ export default function SouthAmerica() {
 
             </div>
 
+            <br />
 
             <Filter></Filter>
+
+            
         </Layout>
     )
 }
