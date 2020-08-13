@@ -11,11 +11,11 @@ export default function Home() {
         <title>Colibro</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
-      <main className={styles.main}>
-          <h1>This is a test</h1>
-      </main>
 
+      <main className={styles.main}>
+        <h1>This is a test</h1>
+      </main>
+    </div>
 
   )
 }
