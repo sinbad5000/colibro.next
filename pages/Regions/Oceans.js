@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import AnimalGrid from '../Animals/AnimalGrid'
 
 
-export default function SouthAmerica() {
+export default function Oceans() {
     return (
         <Layout>
             <div className = {sa.whaleDiv}>
