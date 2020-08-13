@@ -13,27 +13,17 @@ export default function AnimalGrid() {
                 <title>Colibro</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Container>
             <div className={styles.gridContainer}>
-            <Row>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-            </Row>
-            
-            <Row>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-            </Row>
-            <br />
-            <Row>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-                <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
-            </Row>
+                <Row>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                    <Link href="/Animals/GoldenTamarin"><a><Col><div className={styles.rowContainer}><img src="/matt-flores.jpg" className={styles.imgContainer}></img></div></Col></a></Link>
+                </Row>
             </div>
-            </Container>
+
         </div>
     )
 }

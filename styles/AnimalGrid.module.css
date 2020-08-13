@@ -7,7 +7,7 @@
 }
 .rowContainer {
     height: 12vw;
-    width: 20vw;
+    width: 35vh;
     overflow: hidden;
     padding: 1vw;
     padding-bottom: 3vw;
@@ -15,5 +15,7 @@
 }
 .gridContainer {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
