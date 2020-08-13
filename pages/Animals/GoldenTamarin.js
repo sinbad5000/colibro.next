@@ -11,6 +11,7 @@ import TabContent from 'react-bootstrap/TabContent'
 import TabPane from 'react-bootstrap/TabPane'
 import Nav from 'react-bootstrap/Nav'
 import sa from '../../styles/SouthAmerica.module.css'
+import Link from 'next/link'
 
 
 export default function GoldenTamarin() {

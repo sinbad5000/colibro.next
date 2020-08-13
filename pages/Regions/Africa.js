@@ -3,7 +3,7 @@ import sa from '../../styles/SouthAmerica.module.css'
 import Layout from '../../components/Layout'
 import Filter from '../../components/Filter'
 import Container from 'react-bootstrap/Container'
-import AnimalGrid from '../Animals/AnimalGrid'
+
 
 
 export default function Africa() {
@@ -20,7 +20,7 @@ export default function Africa() {
 
             <Filter></Filter>
 
-            <AnimalGrid />
+     
 
         </Layout>
     )

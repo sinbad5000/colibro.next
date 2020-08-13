@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
 
         <Navbar className="justify-content-between" expand="lg" variant="dark" bg="dark" fixed="top">
             <Container className={styles.test}>
-                <Navbar.Brand>Colibro</Navbar.Brand>
+                <Navbar.Brand href="/Cover">Colibro</Navbar.Brand>
 
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link href="/Homepage">Map</Nav.Link>
