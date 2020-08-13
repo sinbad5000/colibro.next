@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
 import Link from 'next/link'
 
@@ -20,7 +21,9 @@ export default function Cover() {
             </Head>
             <main>
             <div className={styles.coverLogo}>
-                <Link href='/Map'><a><h1>Colibro</h1></a></Link>
+
+                <Link href='/Homepage'><h1>Colibro</h1></Link>
+
             </div>
             </main>
         </div>
