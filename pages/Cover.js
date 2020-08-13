@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Cover.module.css'
-import Link from 'next/link'
 
 export default function Cover() {
     const styling = {
